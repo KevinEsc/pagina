@@ -1,19 +1,55 @@
 <!DOCTYPE HTML>
-<html lang=es>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Galeria Fragmentada</title>
-    </head>
-    <body>
-        <header>
-            <div align="center">
-                <h1>Galeria Fragmentada</h1>
-                <hr width="30%">
-                <nav>
-                    <a href="index.html">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="galeria.html">Galeria</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="contacto.html">Contacto</a>
-                </nav>
-            </div>     
-        </header>
-    </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Fragmentada</title>
+</head>
+<body>
+    <header>
+        <div align="center">
+            <h1 style="font-size: 36px;">Galería Fragmentada</h1>
+            <hr width="30%">
+            <nav>
+                <a href="index.html">Inicio</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="galeria.html">Galería</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="contacto.html">Contáctanos</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div align="center">
+            <h2 style="font-size: 28px;">Formulario de Contacto</h2>
+            <form>
+                <label>
+                    <strong>Nombre:</strong><br>
+                    <input type="text" placeholder="Escribe tu nombre" required size="40">
+                </label><br><br>
+
+                <label>
+                    <strong>Email:</strong><br>
+                    <input type="email" placeholder="correo@ejemplo.com" required size="40">
+                </label><br><br>
+
+                <label>
+                    <strong>Tipo de Solicitud:</strong><br>
+                    <select required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="compra">Compra</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="venta">Venta</option>
+                    </select>
+                </label><br><br>
+
+                <label>
+                    <strong>Mensaje:</strong><br>
+                    <textarea rows="6" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </label><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
 </html>
