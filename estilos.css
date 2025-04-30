@@ -1,4 +1,7 @@
-body {
+#body {
   overflow-y: hidden;
   overflow-x: hidden;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
 }
