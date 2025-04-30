@@ -1,6 +1,10 @@
-body {
-  overflow-y: hidden;
-  overflow-x: hidden;
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
 }
 .navbar-nav .nav-link.active {
   font-weight: bold;
