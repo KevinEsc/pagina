@@ -10,5 +10,5 @@
   font-weight: bold;
 }
 .texto{
-  font-size: 2vw;
+  word-wrap: break-word;
 }
